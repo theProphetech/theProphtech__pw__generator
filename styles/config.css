@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "josefin";
+  src: url("/assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+}
+:root {
+  --auto__fontsize: 14px;
+  --title__textclr: #fff;
+  --fontf__josefin: josefin;
+  /* --header__content__bg: hsla(270, 10%, 9%, 1); */
+  --main__card__bg: hsla(270, 10%, 1%, 1);
+  --border__radius: 2px;
+  --accent__clr: hsla(95, 95%, 72%, 1);
+  --text__txtclr1: hsla(0, 0%, 82%, 1);
+  --text__txtclr2: hsla(0, 0%, 0%, 1);
+
+  --bodybg: hsla(270, 3%, 15%, 1);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: var(--fontf__josefin);
+  color: var(--text__txtclr1);
+  box-sizing: border-box;
+  font-size: var(--auto__fontsize);
+  --tab__activeclr: hsla(270, 3%, 15%, 1);
+}
+
+body {
+  background: var(--bodybg);
+  height: 100dvh;
+  width: 100%;
+}
+
+button {
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+}
