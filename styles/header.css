@@ -71,8 +71,8 @@
 }
 
 @media screen and (max-width: 500px) {
-  #header{
-    padding:2rem;
+  #header {
+    padding: 2rem;
   }
   .header__contents__con {
     flex-direction: column;
@@ -80,10 +80,16 @@
   }
   .header__icon__con {
     width: 100%;
-    margin-bottom: 2rem 2rem 4rem 2rem;
+    margin-bottom: 2rem;
     text-align: left;
   }
   .header__content {
     width: 100%;
+  }
+  .header__heading {
+    white-space: nowrap;
+  }
+  .header__description {
+    padding: 0 0.5rem 0 0;
   }
 }

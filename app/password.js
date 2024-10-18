@@ -45,7 +45,6 @@ function integrate__pwgene(output, length, num, special) {
     }
     last__ouput = string__output.slice(0, length.value);
     output.textContent = last__ouput;
-    length.value = "";
   }
 
   if (length.value && num.checked) {
