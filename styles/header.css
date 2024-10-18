@@ -1,6 +1,7 @@
 #header {
-  height: 100dvh;
-  /* display: none; */
+  min-height: 100dvh;
+  width: 100%;
+  display: none;
   padding: 3rem 0;
 }
 
@@ -54,7 +55,6 @@
   border-radius: var(--border__radius);
   letter-spacing: 1px;
   color: var(--text__txtclr2);
-
 }
 
 /* @keyframes fade {
@@ -68,4 +68,22 @@
 } */
 #Capa_1 {
   fill: var(--accent__clr);
+}
+
+@media screen and (max-width: 500px) {
+  #header{
+    padding:2rem;
+  }
+  .header__contents__con {
+    flex-direction: column;
+    width: 100%;
+  }
+  .header__icon__con {
+    width: 100%;
+    margin-bottom: 2rem 2rem 4rem 2rem;
+    text-align: left;
+  }
+  .header__content {
+    width: 100%;
+  }
 }
