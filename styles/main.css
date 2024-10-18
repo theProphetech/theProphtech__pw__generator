@@ -288,4 +288,19 @@ input[type="checkbox"]:checked::before {
   .password__form {
     grid-template-columns: 1fr;
   }
+
+
+  input[type="checkbox"]::before {
+  position: absolute;
+  content: "\2713";
+  top: -8px;
+  width: 100%;
+  height: 100%;
+  left: 3px;
+  font-size: 1.3rem;
+  color: var(--accent__clr);
+  font-weight: bolder;
+  visibility: hidden;
+}
+
 }
